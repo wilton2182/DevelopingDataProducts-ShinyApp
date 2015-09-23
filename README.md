@@ -3,6 +3,8 @@ mtcars Explorer is the Shiny app code for part 1 of the project for Developing D
 
 The app is deployed on shinyapps.io at https://wilton2182.shinyapps.io/DevelopingDataProducts-ShinyApp and this repo contains the ui.R and server.R files of the shiny app. The app has a Help tab that gives an overview of the app.  That same help text is shown below.
 
+There is a [presentation in RPubs](https://rpubs.com/dpwilt57/111396) that describes the app including R functions used to generate the output.
+
 ## mtcars Explorer Help
 
 ### Purpose  
