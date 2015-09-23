@@ -89,7 +89,7 @@ shinyUI(fluidPage(
                    "represents the certainty associated with the predictions of mpg given at each",
                    "value of the transformed predictor variable. Narrower bands represent higher certainty."),
                  p(strong("lm() Summary - "),"This tab is intended for advanced users.",
-                   "The ouput of summary(lm()) for the formula constructed based on the",
+                   "The ouput of summary.lm() for the formula constructed based on the",
                    "selected predictor variable and transformation. The R function ",
                    a("summary.lm()", href="https://stat.ethz.ch/R-manual/R-patched/library/stats/html/summary.lm.html", target="_blank"),
                    "provides an explanation of the output."),
@@ -97,7 +97,9 @@ shinyUI(fluidPage(
                    "The plots are generated using plot.lm() and are used to diagnose problems with", 
                    "the data or models.",
                    a("plot.lm()",href="https://stat.ethz.ch/R-manual/R-patched/library/stats/html/plot.lm.html", target="_blank"),
-                   "provides an explanation of the output.")
+                   "provides an explanation of the output."),
+                 p(strong("Source Code -"), "The source code for this Shiny app is available on",
+                   a("github.",href="https://github.com/wilton2182/DevelopingDataProducts-ShinyApp", target="_blank"))
         )
       )
     )
