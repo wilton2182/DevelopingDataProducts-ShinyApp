@@ -9,10 +9,8 @@ shinyServer(function(input, output) {
       input$trns, 
       none = input$predvar,
       sqrt = paste('I(sqrt(',input$predvar,'))'), 
-      lg2 = paste('I(log2(',input$predvar,'))'), 
       lg10 = paste('I(log10(',input$predvar,'))'), 
-      sq = paste('I(',input$predvar,'^2)'), 
-      cb = paste('I(',input$predvar,'^3)')
+      sq = paste('I(',input$predvar,'^2)')
       )
     )
   })

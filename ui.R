@@ -35,11 +35,9 @@ shinyUI(fluidPage(
                   choices = names(mtcars)[-1]),
       radioButtons("trns", "Select Predictor Transformation:",
                    c("Unmodified" = "none",
-                     "Log2" = "lg2",
                      "Log10" = "lg10",
                      "Sqare Root" = "sqrt",
-                     "Square" = "sq",
-                     "Cube" = "cb")),
+                     "Square" = "sq")),
       checkboxGroupInput("intrvls", "Select Intervals to Plot:",
                          c("Confidence" = "cnfdnc",
                            "Prediction" = "prd"))
