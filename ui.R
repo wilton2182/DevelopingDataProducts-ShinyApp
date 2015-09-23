@@ -53,15 +53,15 @@ shinyUI(fluidPage(
                  verbatimTextOutput("lmsummry")),
         tabPanel("Residual Analysis Plots",
                  plotOutput("residplots"),
-                 h5(a("plot.lm() Help", href="http://www.inside-r.org/r-doc/stats/plot.lm"))
+                 h5(a("plot.lm() Help", href="https://stat.ethz.ch/R-manual/R-patched/library/stats/html/plot.lm.html"))
                  ),
         tabPanel("Help",
                  h4("Purpose"),
                  p("mtcars_Explorer is an interactive Shiny app that allows a user", 
-                   "to evaluate individual predictor variables from the mtcars", 
-                   "dataset as predictors of the response variable mpg. Refer to",
-                   "the datasets package for a description of the mtcars dataset and",
-                   "the variables it contains."
+                   "to evaluate individual predictor variables from the",
+                   a("mtcars dataset", href="https://stat.ethz.ch/R-manual/R-devel/library/datasets/html/mtcars.html"),
+                   "as predictors of the response variable mpg. The hotlink above is to the ",
+                   "description of the mtcars dataset which describes the variables it contains."
                  ),
                  h4("Controls"),
                  p("The sidebar panel provides 3 controls that enable:"),
@@ -87,10 +87,12 @@ shinyUI(fluidPage(
                    "value of the transformed predictor variable. Narrower bands represent higher certainty."),
                  p(strong("lm() Summary - "),"The ouput of summary(lm()) for the formula constructed based on the",
                    "selected predictor variable and transformation. This tab is intended for advanced users.",
-                   "See help for the R function summary.lm() for an explanation of the output."),
+                   "The R function ",
+                   a("summary.lm()", href="https://stat.ethz.ch/R-manual/R-patched/library/stats/html/summary.lm.html"),
+                   "provides an explanation of the output."),
                  p(strong("lm() Residual Analysis Plots - "),"The plots are generated using plot.lm() and are used",
                    "to diagnose problems with the data or models. This tab is intended for advanced users.",
-                   "See help for the R function", a("plot.lm()", href="http://www.inside-r.org/r-doc/stats/plot.lm"),
+                   "See help for the R function", a("plot.lm()",href="https://stat.ethz.ch/R-manual/R-patched/library/stats/html/plot.lm.html"),
                    "for an explanation of the output.")
         )
       )
