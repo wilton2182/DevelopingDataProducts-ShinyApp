@@ -1,7 +1,7 @@
 # DevelopingDataProducts-ShinyApp
 mtcars Explorer is the Shiny app code for part 1 of the project for Developing Data Products.
 
-The app is deployed on shinyapps.io at https://wilton2182.shinyapps.io/DevelopingDataProducts-ShinyApp and this repo contains the ui.R and server.R files of the shiny app. The app has a Help tab that gives an overview of the app.  That same help text is shown below.
+The app is deployed on [shinyapps.io](https://wilton2182.shinyapps.io/DevelopingDataProducts-ShinyApp) and this repo contains the ui.R and server.R files of the shiny app. The app has a Help tab that gives an overview of the app.  That same help text is shown below.
 
 There is a [R Presentation in RPubs](https://rpubs.com/dpwilt57/111396) that describes the app including R functions used to generate the output.  There is also a [slidify presentation](https://wilton2182.github.io/mtcars-Explorer-slidify/index.html#1) in github.  The slidify presentation is the one submitted for the project, and the code for that presentation is also available in [github](https://github.com/wilton2182/mtcars-Explorer-slidify/tree/gh-pages).
 
